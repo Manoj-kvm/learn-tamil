@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: rgb(255, 183, 0);
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav ul li a {
+    text-decoration: none;  /* Remove underline */
+    color: black;           /* Normal color */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: white;           /* Hover color */
+    text-decoration: none;  /* Ensure no underline on hover */
+}
+
+/* Search Bar */
+.search {
+    margin: 20px;
+}
+
+input[type="search"] {
+    padding: 10px;
+    width: 60%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Product Cards */
+.produt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.box {
+    border: 2px solid black;
+    background-color: #fff;
+    width: 250px;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+}
+
+.box:hover {
+    background-color: black;
+    color: white;
+}
+
+/* About Section */
+.about {
+    text-align: center;
+    padding: 30px;
+}
+
+.about p {
+    font-size: large;
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.Contact {
+    padding: 20px;
+}
+
+/* Footer Links */
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+/* General link reset */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+}
